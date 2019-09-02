@@ -1,6 +1,5 @@
-def call() {
-    stage('My stage') {
-        checkpoint 'My checkpoint'
-        echo 'my stage'
+def call(Map config, Object script) {
+    stage('Library stage') {
+        script.checkpoint 'My checkpoint'
     }
 }

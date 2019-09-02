@@ -1,9 +1,9 @@
 @Library('github.com/Vlatombe/pipeline-checkpoint') _
 
-stage('Stage 1') {
-    echo '1'
+stage('Before') {
+    echo 'Before'
 }
-mycheckpoint
-stage ('Stage 2') {
-    echo '2'
+mycheckpoint(foo:'bar', this)
+stage ('After') {
+    echo 'After'
 }
