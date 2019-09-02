@@ -1,3 +1,3 @@
-@Library('https://github.com/Vlatombe/pipeline-checkpoint@master') _
+@Library('github.com/Vlatombe/pipeline-checkpoint') _
 
 mycheckpoint
